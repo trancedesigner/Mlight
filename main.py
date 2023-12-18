@@ -10,7 +10,7 @@ import asyncio
 # Controlliamo che la versione di OpenAI sia corretta
 required_version = version.parse("1.1.1")
 current_version = version.parse(openai.__version__)
-OPENAI_API_KEY = os.environ['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']
+OPENAI_API_KEY = os.environ['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']
 if current_version < required_version:
   raise ValueError(f"Error: OpenAI version {openai.__version__}"
                    " is less than the required version 1.1.1")
