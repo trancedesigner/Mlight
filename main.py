@@ -24,7 +24,7 @@ app = FastAPI()
 client = OpenAI(api_key=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)
 
 # Carichiamo l'ID dell'assistente dalle variabili di ambiente
-assistant_id = os.environ['ASSISTANT_ID']
+assistant_id = os.environ['asst_2ldVttTcBkejfenwQSsg0r95']
 
 # Definiamo il modello di richiesta per la chat
 class ChatRequest(BaseModel):
