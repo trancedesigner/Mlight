@@ -21,7 +21,7 @@ else:
 app = FastAPI()
 
 # Inizializziamo il client di OpenAI
-client = OpenAI(api_key=OPENAI_API_KEY)
+client = OpenAI(api_key=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)
 
 # Carichiamo l'ID dell'assistente dalle variabili di ambiente
 assistant_id = os.environ['ASSISTANT_ID']
